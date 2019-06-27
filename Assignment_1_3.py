@@ -36,4 +36,8 @@ for row in range (5):
 
 for row in range (5):
     for col in range (7):
-        if (col<2 or col>4) or((row
+        if (col<2 or col>4) or((row==(col-1)) and (col>0 and col<5)):
+            print ("N", end='')
+        else:
+            print (end=" ")
+    print()
